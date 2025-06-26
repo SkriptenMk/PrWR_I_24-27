@@ -1,0 +1,29 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "PrWR 2I (Schuljahr 2025/2026)"
+  navbar:
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Weitere Informationen"
+        menu:
+          - text: "Jupyter Setup"
+            href: ./files/jupyter.qmd
+    - icon: github
+      menu:
+        - text: "GitHub Repository"
+          href: https://github.com/SkriptenMk/PrWR_I_24-27
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+
+
+
