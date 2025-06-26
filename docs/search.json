@@ -7,6 +7,13 @@
     "text": "Auf dieser Seite finden Sie alle Informationen zum Unterrichtsgefäss Projekte Wirtschaft und Recht der Klasse 2I im Schuljahr 2025/2026 an der Kantonsschule Büelrain Winterthur.\nIn diesem Unterrichtsgefäss geht es schwergewichtig um das Thema Datenvisualisierung. Dabei soll das geschult werden, welche Form der Darstellung für welche Art von Daten geeignet ist. Darüber hinaus soll der Umgang mit möglichen Publikationsformen trainiert werden.\nPro Semester werden je zwei Projekte als Gruppenarbeit durchgeführt."
   },
   {
+    "objectID": "files/beispiel.html",
+    "href": "files/beispiel.html",
+    "title": "Beispiel Notebook",
+    "section": "",
+    "text": "Dies ist ein Beispiel für ein Jupyter Notebook. In einem Jupyter Notebook kann mit Markdown formatierter Text mit ausführbarem Code kombiniert weren.\n\nprint(\"Hello, World!\")\n\nHello, World!\n\n\nDownload: Diese Date als Jupyter Notebook herunterladen"
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -18,6 +25,20 @@
     "href": "files/jupyter.html",
     "title": "Jupyter Notbook Setup",
     "section": "",
-    "text": "Hier kommt die Erläuterung für das Setup"
+    "text": "Um auf dem eigenen Rechner mit Jupyter Notebooks arbeiten zu können, muss Python installiert sein.\nAm besten wird dazu der Installer der offiziellen Python Website verwendet.\nFür die Arbeit an Python Projekten wird empfohlen, eine Python Virtual Environment zu verwenden. Diese wird im Arbeitsverzeichnis mit dem Befehl\npython -m venv .venv\nerstellt. Dabei ist .venv der Name des Verzeichnisses, in dem die Dateien der Virtual Environment gespeichert werden. Dieser kann beliebig gewählt werden. Wenn in einem Projekt nur eine Virtual Environment verwendet wird, ist es üblich, .venv zu verwenden.\nGestartet wird die Virtual Environment auf einem Windows Rechner mit dem Befehl\n.\\.venv\\Scripts\\activate\nBeendet wird die Virtual Environment mit dem Befehl\ndeactivate"
+  },
+  {
+    "objectID": "files/jupyter.html#voraussetzungen",
+    "href": "files/jupyter.html#voraussetzungen",
+    "title": "Jupyter Notbook Setup",
+    "section": "",
+    "text": "Um auf dem eigenen Rechner mit Jupyter Notebooks arbeiten zu können, muss Python installiert sein.\nAm besten wird dazu der Installer der offiziellen Python Website verwendet.\nFür die Arbeit an Python Projekten wird empfohlen, eine Python Virtual Environment zu verwenden. Diese wird im Arbeitsverzeichnis mit dem Befehl\npython -m venv .venv\nerstellt. Dabei ist .venv der Name des Verzeichnisses, in dem die Dateien der Virtual Environment gespeichert werden. Dieser kann beliebig gewählt werden. Wenn in einem Projekt nur eine Virtual Environment verwendet wird, ist es üblich, .venv zu verwenden.\nGestartet wird die Virtual Environment auf einem Windows Rechner mit dem Befehl\n.\\.venv\\Scripts\\activate\nBeendet wird die Virtual Environment mit dem Befehl\ndeactivate"
+  },
+  {
+    "objectID": "files/jupyter.html#installation-der-erforderlichen-pakete",
+    "href": "files/jupyter.html#installation-der-erforderlichen-pakete",
+    "title": "Jupyter Notbook Setup",
+    "section": "Installation der erforderlichen Pakete",
+    "text": "Installation der erforderlichen Pakete\nDamit innerhalb der Virtual Environment Jupyter Notebooks verwendet werden können, müssen in der aktiven Virtual Environment die erforderlichen Pakete installiert werden.\nDies erfolgt mit dem Befehl\npip install jupyter\nDamit steht ein lokaler Jupyter Server zur Verfügung. Gestartet wird der Server mit dem Befehl\njupyter notebook\noder alternativ mit\njupyter lab\nWeitere erforderliche Pakete können ebenfalls mit pip mit dem Befehl pip install &lt;paketname&gt; installiert werden.\nHier findet sich ein Beispiel für ein Jupyter Notebook."
   }
 ]
