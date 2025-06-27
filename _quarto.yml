@@ -12,10 +12,10 @@ website:
         menu:
           - text: "Jupyter Setup"
             href: ./files/jupyter.qmd
-    - icon: github
-      menu:
-        - text: "GitHub Repository"
-          href: https://github.com/SkriptenMk/PrWR_I_24-27
+      - icon: github
+        href: https://github.com/SkriptenMk/PrWR_I_24-27
+    page-footer: "Akutalisiert: {{< modified >}}"
+
 
 format:
   html:

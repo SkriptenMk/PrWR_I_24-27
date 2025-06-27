@@ -1,7 +1,13 @@
 ---
-title: "PrWR_I_24-27"
+title: "Willkommen auf der Seite PrWR der Klasse 2I"
 ---
 
-This is a Quarto website.
+Auf dieser Seite finden Sie alle Informationen zum Unterrichtsgefäss
+Projekte Wirtschaft und Recht der Klasse 2I im Schuljahr 2025/2026 an
+der Kantonsschule Büelrain Winterthur.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+In diesem Unterrichtsgefäss geht es schwergewichtig um das Thema
+Datenvisualisierung. Dabei soll das geschult werden, welche Form der
+Darstellung für welche Art von Daten geeignet ist. Darüber hinaus soll
+der Umgang mit möglichen Publikationsformen trainiert werden.  
+Pro Semester werden je zwei Projekte als Gruppenarbeit durchgeführt.

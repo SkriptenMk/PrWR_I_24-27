@@ -1,5 +1,59 @@
 ---
 title: "Jupyter Notbook Setup"
+date: 2025-06-26
+date-format: "DD.MM.YYYY"
+lang: de
+toc: false
 ---
 
-Hier kommt die Erläuterung für das Setup
+## Voraussetzungen
+
+Um auf dem eigenen Rechner mit Jupyter Notebooks arbeiten zu können,
+muss Python installiert sein.  
+Am besten wird dazu der 
+[Installer](https://www.python.org/downloads/) 
+der offiziellen Python Website verwendet.
+
+Für die Arbeit an Python Projekten wird empfohlen, eine Python Virtual
+Environment zu verwenden. Diese wird im Arbeitsverzeichnis mit dem Befehl
+```bash
+python -m venv .venv
+```
+erstellt. Dabei ist `.venv` der Name des Verzeichnisses, in dem die
+Dateien der Virtual Environment gespeichert werden. Dieser kann beliebig
+gewählt werden. Wenn in einem Projekt nur eine Virtual Environment
+verwendet wird, ist es üblich, `.venv` zu verwenden.  
+Gestartet wird die Virtual Environment auf einem Windows Rechner mit dem
+Befehl 
+```bash
+.venv\Scripts\activate
+```  
+Beendet wird die Virtual Environment mit dem Befehl
+```bash
+deactivate
+```
+
+## Installation der erforderlichen Pakete
+
+Damit innerhalb der Virtual Environment Jupyter Notebooks verwendet
+werden können, müssen in der aktiven Virtual Environment die
+erforderlichen Pakete installiert werden.    
+Dies erfolgt mit dem Befehl
+```bash
+pip install jupyter
+```  
+Damit steht ein lokaler Jupyter Server zur Verfügung. Gestartet wird der
+Server mit dem Befehl
+```bash
+jupyter notebook
+```
+oder alternativ mit
+```bash
+jupyter lab
+```
+
+Weitere erforderliche Pakete können ebenfalls mit `pip` mit dem Befehl
+`pip install <paketname>` installiert werden.
+
+[Hier](beispiel.ipynb)
+findet sich ein Beispiel für ein Jupyter Notebook.
