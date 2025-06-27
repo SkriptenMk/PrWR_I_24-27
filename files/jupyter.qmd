@@ -3,6 +3,7 @@ title: "Jupyter Notbook Setup"
 date: 2025-06-26
 date-format: "DD.MM.YYYY"
 lang: de
+toc: false
 ---
 
 ## Voraussetzungen
@@ -25,7 +26,7 @@ verwendet wird, ist es üblich, `.venv` zu verwenden.
 Gestartet wird die Virtual Environment auf einem Windows Rechner mit dem
 Befehl 
 ```bash
-.\.venv\Scripts\activate
+.venv\Scripts\activate
 ```  
 Beendet wird die Virtual Environment mit dem Befehl
 ```bash
